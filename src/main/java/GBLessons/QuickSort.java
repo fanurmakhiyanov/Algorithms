@@ -139,4 +139,14 @@ public class QuickSort {
             }
         }
     }
+
+    static class SearchUtils{
+
+        static int binarySearch(int[] array, int value) {
+            return binarySearch(array, value, 0, array.length - 1);
+        }
+        static int binarySearch(int[] array, int value, int left, int right) {
+
+        }
+    }
 }
